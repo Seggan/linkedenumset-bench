@@ -1,0 +1,54 @@
+Result "io.github.seggan.bench.BenchEnum.addEnum":
+  1.643 ±(99.9%) 0.135 ns/op [Average]
+  (min, avg, max) = (1.380, 1.643, 1.775), stdev = 0.180
+  CI (99.9%): [1.508, 1.778] (assumes normal distribution)
+
+Result "io.github.seggan.bench.BenchEnum.addEnumSet":
+  1.475 ±(99.9%) 0.050 ns/op [Average]
+  (min, avg, max) = (1.453, 1.475, 1.792), stdev = 0.067
+  CI (99.9%): [1.425, 1.525] (assumes normal distribution)
+
+Result "io.github.seggan.bench.BenchEnum.addMutableSet":
+  10.844 ±(99.9%) 0.687 ns/op [Average]
+  (min, avg, max) = (9.867, 10.844, 13.649), stdev = 0.916
+  CI (99.9%): [10.158, 11.531] (assumes normal distribution)
+
+Result "io.github.seggan.bench.BenchEnum.containsEnum":
+  1.354 ±(99.9%) 0.015 ns/op [Average]
+  (min, avg, max) = (1.332, 1.354, 1.408), stdev = 0.020
+  CI (99.9%): [1.338, 1.369] (assumes normal distribution)
+
+Result "io.github.seggan.bench.BenchEnum.containsEnumSet":
+  1.260 ±(99.9%) 0.044 ns/op [Average]
+  (min, avg, max) = (1.218, 1.260, 1.462), stdev = 0.058
+  CI (99.9%): [1.216, 1.304] (assumes normal distribution)
+
+Result "io.github.seggan.bench.BenchEnum.containsMutableSet":
+  2.800 ±(99.9%) 0.348 ns/op [Average]
+  (min, avg, max) = (2.232, 2.800, 4.512), stdev = 0.464
+  CI (99.9%): [2.452, 3.147] (assumes normal distribution)
+
+Result "io.github.seggan.bench.BenchEnum.iteratorEnum":
+  27.879 ±(99.9%) 0.350 ns/op [Average]
+  (min, avg, max) = (27.347, 27.879, 29.184), stdev = 0.467
+  CI (99.9%): [27.529, 28.229] (assumes normal distribution)
+
+Result "io.github.seggan.bench.BenchEnum.iteratorEnumSet":
+  10.458 ±(99.9%) 0.105 ns/op [Average]
+  (min, avg, max) = (10.285, 10.458, 10.726), stdev = 0.140
+  CI (99.9%): [10.353, 10.563] (assumes normal distribution)
+
+Result "io.github.seggan.bench.BenchEnum.iteratorMutableSet":
+  9.721 ±(99.9%) 0.097 ns/op [Average]
+  (min, avg, max) = (9.566, 9.721, 10.132), stdev = 0.129
+  CI (99.9%): [9.624, 9.817] (assumes normal distribution)
+
+Result "io.github.seggan.bench.BenchEnum.removeEnum":
+  1.573 ±(99.9%) 0.140 ns/op [Average]
+  (min, avg, max) = (1.389, 1.573, 1.822), stdev = 0.186
+  CI (99.9%): [1.433, 1.712] (assumes normal distribution)
+
+Result "io.github.seggan.bench.BenchEnum.removeEnumSet":
+  1.442 ±(99.9%) 0.091 ns/op [Average]
+  (min, avg, max) = (1.354, 1.442, 1.673), stdev = 0.121
+  CI (99.9%): [1.351, 1.532] (assumes normal distribution)
