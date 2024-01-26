@@ -6,11 +6,7 @@ import java.util.LinkedList
 
 class LinkedEnumSet<E : Enum<E>>(private val delegate: EnumSet<E>) : MutableSet<E> by delegate {
 
-    private val links = LinkedList<E>()
-
-    init {
-        links.addAll(delegate)
-    }
+    private val links = ArrayList<E>(delegate)
 
     companion object {
         inline fun <reified E : Enum<E>> of(vararg elements: E): LinkedEnumSet<E> {
